@@ -36,6 +36,7 @@ H5,H6 { font-size: 1.05em; }
 .footer { 
   
     border-top: 1px dotted silver;
+    font-size: 0.01px;
 }
 
 .main-article { 
@@ -336,10 +337,30 @@ div#title-block H1 {
 }
 
 div.credits {
-  font-size: 0.1em;
+  font-size: 0.01em;
   text-align: center;
 }
 
 table.center-right-col td:last-child {
         text-align: center
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
 }
